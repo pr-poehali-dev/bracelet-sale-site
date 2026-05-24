@@ -6,10 +6,11 @@ import AboutPage from './pages/AboutPage';
 import CartPage from './pages/CartPage';
 import AuthPage from './pages/AuthPage';
 import ProfilePage from './pages/ProfilePage';
+import ContactPage from './pages/ContactPage';
 import Navbar from './components/Navbar';
 import { getStoredUser, isLoggedIn } from '@/lib/api';
 
-export type Page = 'home' | 'catalog' | 'about' | 'cart' | 'auth' | 'profile';
+export type Page = 'home' | 'catalog' | 'about' | 'cart' | 'auth' | 'profile' | 'contact';
 
 export interface CartItem {
   id: number;
@@ -79,6 +80,7 @@ export default function App() {
         />
       )}
       {page === 'profile' && !user && <AuthPage setPage={setPage} onAuth={setUser} />}
+      {page === 'contact' && <ContactPage />}
     </div>
   );
 }

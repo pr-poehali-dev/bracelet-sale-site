@@ -13,6 +13,7 @@ export default function Navbar({ page, setPage, cartCount, user }: NavbarProps) 
     { label: 'Главная', id: 'home' },
     { label: 'Каталог', id: 'catalog' },
     { label: 'О бренде', id: 'about' },
+    { label: 'Контакты', id: 'contact' },
   ];
 
   return (
