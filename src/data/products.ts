@@ -50,8 +50,8 @@ export const products: Product[] = [
   {
     id: 3,
     name: 'Golden Hour',
-    price: 3190,
-    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/1213365c-af08-4ea8-a608-ff9d30c2b563.jpg',
+    price: 50,
+    image: 'https://cdn.poehali.dev/files/02cc1558-cfae-4fc0-a46d-e7051d2c66b0.jpeg',
     color: '#FFD600',
     tag: 'Лимитед',
     description: 'Золотой браслет с кристаллами Swarovski. Роскошь, которую можно надеть каждый день.',
