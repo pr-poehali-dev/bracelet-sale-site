@@ -18,15 +18,13 @@ export interface Product {
   reviews: Review[];
 }
 
-const BRACELET_IMG = 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/0719274b-3340-45d7-acd1-b37af9feb698.jpg';
-
 export const products: Product[] = [
   {
     id: 1,
     name: 'Neon Coral',
     price: 1890,
     oldPrice: 2490,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/8e694d9d-1fa3-4014-b41f-b97acc7a0f63.jpg',
     color: '#FF6B6B',
     tag: 'Хит',
     description: 'Яркий коралловый браслет из натуральных бусин. Идеален для пляжного сезона и городских прогулок.',
@@ -40,7 +38,7 @@ export const products: Product[] = [
     id: 2,
     name: 'Electric Blue',
     price: 2290,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/8d0620d9-b2ca-432e-9f94-68d48a92def5.jpg',
     color: '#00B8D9',
     tag: 'Новинка',
     description: 'Электрик синий браслет с серебряными вставками. Смелый акцент для любого образа.',
@@ -53,7 +51,7 @@ export const products: Product[] = [
     id: 3,
     name: 'Golden Hour',
     price: 3190,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/1213365c-af08-4ea8-a608-ff9d30c2b563.jpg',
     color: '#FFD600',
     tag: 'Лимитед',
     description: 'Золотой браслет с кристаллами Swarovski. Роскошь, которую можно надеть каждый день.',
@@ -67,7 +65,7 @@ export const products: Product[] = [
     id: 4,
     name: 'Mint Fresh',
     price: 1590,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/a3a5195b-8272-4bcd-b74f-f26fc1b69b6b.jpg',
     color: '#00E5CC',
     description: 'Нежный мятный браслет из полимерной глины. Лёгкий и воздушный — как весенний ветер.',
     reviews: [
@@ -80,7 +78,7 @@ export const products: Product[] = [
     name: 'Violet Storm',
     price: 2690,
     oldPrice: 3200,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/b2e531e7-7162-4ed7-baf6-4d6cec72c747.jpg',
     color: '#9B59B6',
     tag: 'Скидка',
     description: 'Темно-фиолетовый браслет с матовыми камнями. Загадочный и стильный.',
@@ -93,7 +91,7 @@ export const products: Product[] = [
     id: 6,
     name: 'Wild Rose',
     price: 2190,
-    image: BRACELET_IMG,
+    image: 'https://cdn.poehali.dev/projects/7c62b135-c02e-40db-8c8e-122bf400b652/files/f86b8870-f064-4cf2-8ba4-8c2c33a0f63f.jpg',
     color: '#FF4081',
     tag: 'Топ',
     description: 'Розовый браслет с жемчугом и бронзовыми элементами. Для тех, кто любит romance.',
