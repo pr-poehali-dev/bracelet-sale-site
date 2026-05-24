@@ -33,4 +33,14 @@ export const products: Product[] = [
       { id: 3, author: 'Света О.', rating: 5, text: 'Лучший браслет в моей коллекции!', date: '22 апр 2026' },
     ],
   },
+  {
+    id: 4,
+    name: 'The Love Bracelet',
+    price: 30,
+    image: 'https://cdn.poehali.dev/files/7cbfcb0d-024f-4d06-be55-8e2d7a323268.jpeg',
+    color: '#FF6B35',
+    tag: 'Новинка',
+    description: 'Оранжевый браслет с буквами LOVE. Милый и яркий подарок для близких.',
+    reviews: [],
+  },
 ];
